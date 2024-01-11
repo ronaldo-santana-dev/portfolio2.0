@@ -1,8 +1,10 @@
+import Menu from './components/Menu';
+
 function App() {
 
   return (
     <>
-      <h1>hello portfolio</h1>
+      <Menu />
     </>
   )
 }
