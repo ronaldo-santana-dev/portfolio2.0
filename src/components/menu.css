@@ -1,0 +1,48 @@
+.titles {
+    font-size: 2.25rem; /* 36px */
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.minititles {
+    font-size: 1.25rem; /* 20px */
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.container {
+    background-color: #252525;
+    width: 100%;
+    height: 3.75rem;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.menus ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    cursor: pointer;
+}
+
+.hamburguer {
+    display: none;
+}
+
+
+@media (max-width: 875px) {
+    .menus ul{
+       display: none;    
+    }
+
+    .hamburguer  {
+        display: block;
+    }
+}
+
